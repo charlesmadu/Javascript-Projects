@@ -1,0 +1,97 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    background-color: lightgray;
+}
+h2{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+    color: rgb(73, 166, 233);
+}
+li{
+    list-style: none;
+}
+.header{
+    flex: 1;
+    display: flex;
+    flex-direction: row;
+    background-color: white;
+    height: 7vh;
+    line-height: 4.0em;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+.header .left{
+    flex: 6;
+    text-align: center;
+    padding-left: 10%;
+}
+.header .right{
+    flex: 6;
+    display: flex;
+    padding-left: 5%;
+    flex-direction: row;
+}
+.header .right button{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 20px;
+    font-weight: bold;
+    color: gray;
+    border: none;
+    background-color: white;
+    cursor: pointer;
+}
+.header .right .RGB{
+    padding-right: 5%;
+}
+.hero{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    height: 60vh;
+}
+.hero .title{
+    flex: 8;
+}
+.hero .title .textbox{
+    text-align: center;
+    margin-top: 19%;
+}
+.hero .title .textbox h1{
+    font-size: 50px;
+    font-family: "Roboto", sans-serif;
+    color: white;
+}
+.hero .title .textbox .box span{
+    background-color: #222;
+    padding: 1%;
+    border-radius: 10px;
+}
+.hero .title .textbox .colorN span{
+    color: rgb(73, 166, 233);
+}
+.hero .button-containter{
+    flex: 4;
+}
+.hero .button-containter .button-box{
+    padding-top: 4%;
+    margin-left: 44%;
+}
+.hero .button-containter .button-box button{
+    width: 180px;
+    height: 50px;
+    font-size: 24px;
+    font-family: "Roboto", sans-serif;
+    font-weight: bold;
+    border: 2px solid black;
+    background-color: #ecebeb;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.hero .button-containter .button-box button:hover{
+    background-color: #222;;
+    color: white;
+    font-weight: bold;
+    border: 2px solid #222;
+}
